@@ -34,7 +34,7 @@ export const Projects = () => {
               <div className='project_videocontainer'>
                 <div>
                   <img
-                    src='https://github-production-user-asset-6210df.s3.amazonaws.com/97446064/240811117-d697d901-a86f-435c-b10a-8107104b01f5.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230525%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230525T053215Z&X-Amz-Expires=300&X-Amz-Signature=129f72528a9f1d6367e94e1c241f9a499a33bc0f569814546c08723ad63cc6da&X-Amz-SignedHeaders=host&actor_id=97446064&key_id=0&repo_id=638544458'
+                    src='https://github.com/ShreyashGedam/portfolio-after-actyv/assets/97446064/86dc31b7-d51b-4370-a12b-1d4d032dacff'
                     alt=''
                   />
                 </div>
