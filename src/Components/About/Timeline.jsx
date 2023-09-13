@@ -60,7 +60,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              at actyv.ai
+              at Attryb
             </h4>
             <p data-aos="fade-right">
             As a Full Stack Developer at Attryb, I specialized in MERN stack development, including the creation of responsive web applications, RESTful APIs, and custom Shopify themes and apps to provide unique e-commerce solutions for clients.
