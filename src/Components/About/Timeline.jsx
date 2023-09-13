@@ -31,7 +31,7 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-        <VerticalTimelineElement
+          <VerticalTimelineElement
             date={"July  2023 - August 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -60,10 +60,13 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              at actyv.ai
+              at Attryb
             </h4>
             <p data-aos="fade-right">
-            As a Full Stack Developer at Attryb, I specialized in MERN stack development, including the creation of responsive web applications, RESTful APIs, and custom Shopify themes and apps to provide unique e-commerce solutions for clients.
+              As a Full Stack Developer at Attryb, I specialized in MERN stack
+              development, including the creation of responsive web
+              applications, RESTful APIs, and custom Shopify themes and apps to
+              provide unique e-commerce solutions for clients.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -98,11 +101,13 @@ export const Timeline = () => {
               at actyv.ai
             </h4>
             <p data-aos="fade-right">
-              Working as a MERN Full Stack Software Developer, implementing new features, resolving bugs, writing complex MongoDB aggregation query, using
-              Tech stacks MongoDB, TypeScript, React.js, Redux-toolkit, Nest.js, Node.js, Camunda and others.
+              Working as a MERN Full Stack Software Developer, implementing new
+              features, resolving bugs, writing complex MongoDB aggregation
+              query, using Tech stacks MongoDB, TypeScript, React.js,
+              Redux-toolkit, Nest.js, Node.js, Camunda and others.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement  
+          <VerticalTimelineElement
             date={"November 2021 - July 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -170,7 +175,10 @@ export const Timeline = () => {
               Bachelor of Engineering
             </h4>
             <p data-aos="fade-right">
-            As a Bachelor of Engineering graduate from Mumbai University, I completed specialized coursework in Mechanical Engineering. I also developed technical and soft skills, acheiving best BE project in final year.
+              As a Bachelor of Engineering graduate from Mumbai University, I
+              completed specialized coursework in Mechanical Engineering. I also
+              developed technical and soft skills, acheiving best BE project in
+              final year.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
