@@ -31,6 +31,41 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+        <VerticalTimelineElement
+            date={"July  2023 - August 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              SDE
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              at actyv.ai
+            </h4>
+            <p data-aos="fade-right">
+            As a Full Stack Developer at Attryb, I specialized in MERN stack development, including the creation of responsive web applications, RESTful APIs, and custom Shopify themes and apps to provide unique e-commerce solutions for clients.
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"August  2022 - April 2023"}
             contentStyle={{
@@ -63,7 +98,7 @@ export const Timeline = () => {
               at actyv.ai
             </h4>
             <p data-aos="fade-right">
-              Working as a MERN Full Stack Software Developer, implementing new features, resolving bugs, writing complex MongoDB aggregation query, and Configuring cron job to auto-trigger scheduled events, using
+              Working as a MERN Full Stack Software Developer, implementing new features, resolving bugs, writing complex MongoDB aggregation query, using
               Tech stacks MongoDB, TypeScript, React.js, Redux-toolkit, Nest.js, Node.js, Camunda and others.
             </p>
           </VerticalTimelineElement>
